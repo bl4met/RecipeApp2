@@ -8,7 +8,10 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
-    new Recipe('A test recipe', 'Just a test', 'https://img.buzzfeed.com/buzzfeed-static/static/2018-01/3/14/enhanced/buzzfeed-prod-fastlane-03/original-9497-1515007001-5.jpg?crop=2048:1072;0,293')
+    new Recipe('A test recipe', 'Just a test', 'https://img.buzzfeed.com/buzzfeed-static/static/2018-01/3/14/enhanced/buzzfeed-prod-fastlane-03/original-9497-1515007001-5.jpg'),
+    new Recipe('A test recipe', 'Just a test', 'https://img.buzzfeed.com/buzzfeed-static/static/2018-01/3/14/enhanced/buzzfeed-prod-fastlane-03/original-9497-1515007001-5.jpg'),
+    new Recipe('A test recipe', 'Just a test', 'https://img.buzzfeed.com/buzzfeed-static/static/2018-01/3/14/enhanced/buzzfeed-prod-fastlane-03/original-9497-1515007001-5.jpg')
+
   ];
 
   constructor() { }
